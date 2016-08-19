@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>byBrick.GCM.Client</id>
+    <version>1.0.0.0</version>
+    <title>GCM Client</title>
+    <authors>Jonathan Dick, Tobias Boogh</authors>
+    <owners>Tobias Boogh</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nuget package of Gcm.Client from Redth found at https://github.com/Redth/GCM.Client</description>
+    <releaseNotes>- Added Nuspec, bumped version number</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+	 <dependencies>
+		<dependency id="Xamarin.GooglePlayServices.Base" version="29.0.0.2"/>
+		<dependency id="Xamarin.GooglePlayServices.Basement" version="29.0.0.2"/>
+		<dependency id="Xamarin.GooglePlayServices.Gcm" version="29.0.0.2"/>
+		<dependency id="Xamarin.GooglePlayServices.Measurement" version="29.0.0.2"/>
+     </dependencies>
+  </metadata>
+  <files>
+     <!--Xamarin.Android-->
+     <file src="..\lib\Android\GCM.Client.dll" target="lib\MonoAndroid10\GCM.Client.dll" />
+   </files>
+</package>
